@@ -185,17 +185,21 @@ const Hero = () => {
                 +91 7730077005
               </Button>
               
-              <Button variant="outline" size="lg" className="button-pop smooth-transition font-medium text-base hover:bg-primary/10">
-                <Linkedin className="mr-2 h-5 w-5" />
-                LinkedIn
-              </Button>
+              <a href="https://linkedin.com/in/premkumar-mukiti" target="_blank" rel="noopener noreferrer" className="inline-block">
+                <Button variant="outline" size="lg" className="button-pop smooth-transition font-medium text-base hover:bg-primary/10">
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  LinkedIn
+                </Button>
+              </a>
             </div>
             
             <div className="flex flex-wrap justify-center lg:justify-start gap-4" style={{ animationDelay: '0.5s' }}>
-              <Button size="lg" className="bg-gradient-to-r from-primary to-accent pulse-glow button-pop smooth-transition font-semibold text-base shadow-lg hover:shadow-2xl text-white">
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume
-              </Button>
+              <a href="/Prem_Kumar_Resume.pdf" download className="inline-block">
+                <Button size="lg" className="bg-gradient-to-r from-primary to-accent pulse-glow button-pop smooth-transition font-semibold text-base shadow-lg hover:shadow-2xl text-white">
+                  <Download className="mr-2 h-5 w-5" />
+                  Download Resume
+                </Button>
+              </a>
               
               {/* <Button variant="outline" size="lg" className="button-pop smooth-transition font-semibold text-base hover:bg-primary/10">
                 <ExternalLink className="mr-2 h-5 w-5" />
