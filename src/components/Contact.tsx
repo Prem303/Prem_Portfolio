@@ -67,8 +67,8 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       label: "Phone",
-      value: "+91 07730077005",
-      href: "tel:+917730077005",
+      value: "+91 07730027005",
+      href: "tel:+917730027005",
       gradient: "from-green-500 to-emerald-500"
     },
     {

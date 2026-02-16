@@ -177,12 +177,12 @@ const Hero = () => {
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8" style={{ animationDelay: '0.4s' }}>
               <Button variant="outline" size="lg" className="glow-effect button-pop smooth-transition font-medium text-base hover:bg-primary/10">
                 <Mail className="mr-2 h-5 w-5" />
-                premkumar8008@gmail.com
+                premkumarm8008@gmail.com
               </Button>
               
               <Button variant="outline" size="lg" className="button-pop smooth-transition font-medium text-base hover:bg-primary/10">
                 <Phone className="mr-2 h-5 w-5" />
-                +91 7730077005
+                +91 7730027005
               </Button>
               
               <a href="https://linkedin.com/in/premkumar-mukiti" target="_blank" rel="noopener noreferrer" className="inline-block">
